@@ -14,11 +14,11 @@ def posicao_aleatoria():
     return (letra, numero)
 
 def main():
+    # Recebe os argumentos. Se as variaveis nao forem passadas, retorna -h
+    arguments = parser.parse_args()
     print('Inicializando servidor...')
     # Instanciamento do jogo
     partida = batalha_naval.Tabuleiro()
-    # Recebe os argumentos. Se as variaveis nao forem passadas, retorna -h
-    arguments = parser.parse_args()
     # Instancia o socket
     soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     # Armazena o nome do host, seu endereço IP e a porta
