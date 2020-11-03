@@ -31,7 +31,7 @@ Informe o endereço IP e a porta do servidor que arbitrará o jogo e o arquivo q
 
 Exemplo:
 ```
-python3 client.py -i 127.0.1.1 -p 9999 -f ./posicionamento_tabuleiro.txt
+python3 client.py -i 127.0.1.1 -p 9999 -f ./posicao_tabuleiro.txt
 ```
 
 Todos os parâmetros, tanto do servidor quanto do cliente são opcionais.
