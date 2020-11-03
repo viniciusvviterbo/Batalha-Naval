@@ -11,7 +11,7 @@ pip3 install argparse
 
 ### Uso
 
-# Servidor
+#### Servidor
 ```
 python3 server.py [-h] [-p PORTA]
 ```
@@ -22,7 +22,7 @@ Exemplo:
 python3 server.py -p 9999
 ```
 
-# Cliente
+#### Cliente
 ```
 python3 client.py [-h] [-i HOST] [-p PORTA] [-f ARQUIVO]
 ```
